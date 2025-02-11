@@ -8,4 +8,6 @@
 
     User can see the details of recipe.
 
+[Hosted Link](https://recipe-finder-app-alpha-six.vercel.app/)
+
     
