@@ -73,7 +73,6 @@ function Details() {
   );
 }
 
-// CSS-in-JS styles
 const styles = {
   container: {
     maxWidth: "800px",

@@ -85,13 +85,11 @@ function Home({ handleCount }) {
 
   return (
     <div style={styles.container}>
-      {/* Title */}
       <div style={styles.header}>
         <h2>Search Your Loved Recipe</h2>
         <FaHeart style={styles.heartIcon} />
       </div>
 
-      {/* Search and Filter */}
       <div style={styles.searchContainer}>
         <input
           type="text"
@@ -115,7 +113,6 @@ function Home({ handleCount }) {
         </select>
       </div>
 
-      {/* Meals Display */}
       {loading ? (
         <p style={styles.loadingText}>Loading...</p>
       ) : meals.length === 0 ? (
@@ -148,7 +145,6 @@ function Home({ handleCount }) {
   );
 }
 
-// Responsive Styles
 const styles = {
   container: {
     maxWidth: "1200px",

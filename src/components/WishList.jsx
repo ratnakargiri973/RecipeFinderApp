@@ -52,7 +52,6 @@ function WishList({ handleCount }) {
   );
 }
 
-// Responsive Styles
 const styles = {
   container: {
     maxWidth: "1200px",
